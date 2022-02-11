@@ -9,7 +9,6 @@ func main() {
 }
 
 func GetMessage() string {
-
-	emoji := emoji.Sprintf("Hello :world_map:!")
+	emoji := emoji.Sprint("Hello :world_map:!")
 	return emoji
 }
