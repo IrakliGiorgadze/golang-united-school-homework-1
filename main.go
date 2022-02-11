@@ -9,6 +9,5 @@ func main() {
 }
 
 func GetMessage() string {
-	emoji := emoji.Sprint("Hello :world_map:!")
-	return emoji
+	return emoji.Sprint("Hello :world_map:!")
 }
