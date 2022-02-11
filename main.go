@@ -1,7 +1,15 @@
 package main
 
-import "github.com/kyokomi/emoji"
+import (
+	"github.com/kyokomi/emoji"
+)
 
 func main() {
-	emoji.Println("Hello :world_map: !")
+	GetMessage()
+}
+
+func GetMessage() string {
+
+	emoji := emoji.Sprintf("Hello :world_map:!")
+	return emoji
 }
